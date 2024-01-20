@@ -1,0 +1,27 @@
+ table,tr,td,th{ 
+  color: rgb(22, 13, 14);
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 100px;
+  height: 90px;
+  text-align: left;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+th {
+  background-color: #1b5a28;
+  color: #ddd;
+} 
+caption{
+  background-color: rgb(198, 175, 175);
+}

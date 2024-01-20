@@ -1,0 +1,330 @@
+*{
+  padding: 0%;
+  margin: 1.0%;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+#logo{
+  color: rgb(16, 212, 26);
+  stroke-width: 1px;
+  height: 70px;
+  width: 70px;
+  background-color: rgba(38, 6, 152, 0.76);
+  border-radius: 50%;
+  text-align: right;
+}
+body{
+  background-color:rgb(129, 188, 198);
+}
+#img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 5Opx;
+  box-sizing: border-box;
+  object-position: right;
+  position:absolute;
+  right: 60px;
+  top: 40px;
+}
+h2{
+    padding-bottom: 12px;
+  }
+#btn1{
+  background-color: rgb(180, 5, 25);
+  height: 35px;
+  width: 80px;
+  border: 0;
+  border-radius: 2px;
+  padding-left: 3px;
+  padding-top: 1.2px;
+  padding-bottom: 1.2px;
+  padding-right: 3px;
+  cursor: pointer;
+  grid-row: 1;
+  grid-column:3;
+  margin-left: 444px;
+  font-feature-settings: "akhn";
+  font-optical-sizing: 20%;
+  color: aliceblue;
+  box-shadow: 5px 3px 15px;
+}
+#btn2{
+  background-color: rgb(180, 5, 25);
+  height: 35px;
+  width: 80px;
+  border: 0;
+  border-radius: 2px;
+  padding-left: 3px;
+  padding-top: 1.2px;
+  padding-bottom: 1.2px;
+  padding-right: 3px;
+  cursor: pointer;
+  grid-row: 1;
+  grid-column: 4;
+  margin-right: 3px;
+  margin-top: 10px;
+  touch-action:pan-x;
+  flex: content;
+  text-decoration: none;
+  color: rgb(250, 252, 253);
+  outline-color: rgb(41, 194, 17);
+  transition: 3sec;
+  box-shadow: 3px 4px 15px;
+}
+#hdr{
+  background-color:rgb(211, 148, 70);
+  text-align: right;
+  margin: 0;
+  padding: 0%;
+}
+/* Define the animation */
+
+@keyframes example {
+  from {background-color: rgba(231, 234, 156, 0.849);}
+  to {background-color: rgb(216, 216, 94);
+  transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);}
+}
+
+/* Bind the animation to an element */
+#data {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-delay: 3sec;
+  animation-iteration-count: infinite
+
+}
+h2{
+  background-color: lightsalmon
+}
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+
+
+.area{
+    background: #c2d210;  
+    background: -webkit-linear-gradient(to left, #eaa716, #4e54c8);  
+    width: 100%;
+    height:auto;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 3;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: 50px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 6s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 31s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 27s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 25s;
+}
+
+.circles li:nth-child(10){
+    left: 80%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 9s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(10) rotate(10deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0.3;
+        border-radius: 50%;
+    }
+
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+li {
+  margin-bottom: 2%;
+  margin-top: 2px;
+  color: #327523;
+}
+h2{
+  border: solid black 2px;
+}
+#myname{
+  padding:50px
+}

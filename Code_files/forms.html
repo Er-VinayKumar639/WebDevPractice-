@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMS-practice</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="forms.css">
+</head>
+<body> 
+
+  <div class="container--">
+    <h2>BootStrap</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum temporibus obcaecati doloribus porro architecto consequatur pariatur soluta facilis sunt. Magni quae quia necessitatibus et quo voluptatum enim facilis voluptas rem!
+    Accusantium officiis suscipit et magni quidem inventore enim consequuntur, autem laboriosam! Aliquam in placeat doloribus ratione nihil? Magnam, et est non nemo vel reiciendis minima, explicabo facere esse veritatis quae?
+    Excepturi quo facilis vel cum velit quas veritatis quis ipsum, vero illum rem architecto quia voluptatem dolorum necessitatibus blanditiis, consectetur perferendis natus et reiciendis modi provident inventore quibusdam! Molestiae, corrupti.
+    Vitae autem vero adipisci culpa incidunt reprehenderit nam ut eius. Vero facere mollitia asperiores corrupti atque ad qui pariatur quae nulla ab, rerum tempora iure et voluptatibus repellat modi quod.
+    Aspernatur repudiandae numquam enim expedita aperiam provident omnis quo est? Dolores blanditiis sequi rerum officiis cum enim maiores autem mollitia laboriosam? Eos dolorem veniam et hic dolor harum architecto! Sunt.</p>
+  </div>
+
+  <form action="/action" id="my-form">
+    <!-- <input type="text"><br>
+    <input type="date"><br>
+    <input type="button"><br>
+    <input type="password"><br>
+    <input type="number"><br>
+    <input type="time"><br>
+    <input type="datetime"><br>
+    <input type="color"><br>
+    <input type="checkbox"><br>
+     -->
+    <div>
+      <label for="username">Username
+        <input type="text" name="username" id="username" placeholder="Enter the user name: ">
+      </label>
+    </div> <br>
+    <div>
+      <label for="password" >Password </label>
+      <input type="password" placeholder="Enter a password: " id="password">
+     
+    </div>
+     <br>
+    <div>
+      <label for="usr-email">E-mail</label>
+       <input type="email" name="email" id="usr-email" placeholder="E-mail">
+      </div>
+      <br>
+    <div>
+      <label for="usr-age">Age   </label>
+      <input type="number" name="age" id="usr-age" placeholder="Enter your age: ">
+   
+    </div>
+    <div>
+      <button type="submit" class="btn btn-success">Submit</button>
+      <button type="reset">Reset</button>
+      <button type="button" class="btn btn-secondary">Hello</button>
+    </div>
+  </form>
+  <div style="padding: 5px;">
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" placeholder="search in google" >
+    </form>
+  </div>
+  <div>
+  <form  action="https://www.youtube.com/results">
+      <input type="text" placeholder="Search in youtube" name="search_query">
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+  <button type="button" class="btn btn-close bg-secondary"><br></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
