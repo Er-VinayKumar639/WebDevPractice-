@@ -94,4 +94,19 @@ let btn = document.createElement("button")
 btn.innerHTML = "NEW BUTTON!"
 let p = document.querySelector("p")
 p.insertAdjacentElement("beforebegin", btn)
+//p.insertAdjacentElement("afterbegin",btn)
+//p.insertAdjacentElement("beforeend",btn)
+//p.insertAdjacentElement("afterend",btn)
+
+//REMOVE ELEMENTS
+
+//removeChild()
+//remove()
+body  = document.querySelector("body")
+body.removeChild(btn)
+
+//Be careful while using remove()
+
+//p.remove()
+//body.remove()
 
