@@ -1,0 +1,19 @@
+body{
+margin: 0;
+padding: 0;
+background: #f6ece6;
+color:chocolate;
+}
+.mydiv{
+  width: 20vh;
+  height: 20vh;
+  margin:2%;
+  padding:1rem;
+  color: aqua;
+  background:rgb(124, 127, 117);
+  text-align: center;
+  border: 1px solid black;
+}
+.green{
+  color: burlywood;
+}
