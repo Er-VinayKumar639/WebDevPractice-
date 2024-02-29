@@ -1,0 +1,19 @@
+{
+  "name": "backend-development",
+  "version": "1.0.0",
+  "description": "coded for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Er-VinayKumar639/BACKEND-DEVELOPMENT-PRACTICE-.git"
+  },
+  "author": "VINAY KUMAR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Er-VinayKumar639/BACKEND-DEVELOPMENT-PRACTICE-/issues"
+  },
+  "homepage": "https://github.com/Er-VinayKumar639/BACKEND-DEVELOPMENT-PRACTICE-#readme"
+}
