@@ -1,17 +1,17 @@
 // *********************Notes**********************************************//
 //Access element
 
-//document.getElementById("#value")
-//document.getElementByClassName(".value")
-//document.getElementByName("value")
-//document.getElementByTagName("tagname")
+document.getElementById("#value")
+document.getElementByClassName(".value")
+document.getElementByName("value")
+document.getElementByTagName("tagname")
 
-//document.querySelector(".val" <for class>, "#value" <for id>, "value" <for tagname> ") 
+document.querySelector(".val" <for class>, "#value" <for id>, "value" <for tagname> ") 
 //It returns the first element of the specified tag if given the tag name
 
 //similarly 
 
-//document.querySelectorAll(".className"<for class> or "tagName"<for tag>)
+document.querySelectorAll(".className"<for class> or "tagName"<for tag>)
 
 
 let h2 = document.querySelector("h2")
@@ -107,6 +107,6 @@ body.removeChild(btn)
 
 //Be careful while using remove()
 
-//p.remove()
-//body.remove()
+p.remove()
+body.remove()
 

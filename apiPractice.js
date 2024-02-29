@@ -9,8 +9,8 @@
 
 let URL = "https://cat-fact.herokuapp.com/facts";
 
-// let promise = fetch(URL);
-// console.log(promise);
+let promise = fetch(URL);
+console.log(promise);
 const factPara = document.querySelector("#fact");
 const button = document.querySelector("#btn");
 const getFacts = async ()=>{
@@ -23,13 +23,13 @@ const getFacts = async ()=>{
 
 //Implement using promise Chaining....
 
-// function getFacts(){
-//   fetch(URL).then((res)=>{
-//      return res.json();
-//   }).then((data)=>{
-//     return factPara.innerText = data[0].text + data[2].text;
-//   })
-// }
+function getFacts(){
+  fetch(URL).then((res)=>{
+     return res.json();
+  }).then((data)=>{
+    return factPara.innerText = data[0].text + data[2].text;
+  })
+}
 
 button.addEventListener("click",getFacts);
 
