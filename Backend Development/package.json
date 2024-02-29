@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Er-VinayKumar639/BACKEND-DEVELOPMENT-PRACTICE-/issues"
   },
-  "homepage": "https://github.com/Er-VinayKumar639/BACKEND-DEVELOPMENT-PRACTICE-#readme"
+  "homepage": "https://github.com/Er-VinayKumar639/BACKEND-DEVELOPMENT-PRACTICE-#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
 }

@@ -28,5 +28,5 @@ console.log(math.pi);
 
 
 //import 
-import { sum , PI } from "./math.js";
+import { sum , PI } from "./math";
 console.log(sum(1,2));
